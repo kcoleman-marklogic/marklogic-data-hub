@@ -55,7 +55,7 @@ plugins {
 
     // This gradle plugin extends the ml-gradle plugin with
     // commands that make the Data Hub Framework do its magic
-    id 'com.marklogic.ml-data-hub' version '2.0.3'
+    id 'com.marklogic.ml-data-hub' version '3.0.0'
 }
 ```
 
@@ -76,7 +76,7 @@ You should see output like this:
 
  - To deploy your application into MarkLogic...
      gradle mlDeploy    # this will bootstrap your application
-     gradle mlLodModules        # this will load your custom plugins into MarkLogic
+     gradle mlLoadModules        # this will load your custom plugins into MarkLogic
 
  - Full list of gradle tasks:
      https://github.com/marklogic/marklogic-data-hub/wiki/Gradle-Tasks
